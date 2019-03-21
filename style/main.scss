@@ -1,0 +1,15 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+
+.product_list {
+    width: 70%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.productList__picture {
+    width: 100px;
+}

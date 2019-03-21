@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Канцтовары</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="style/main.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Онлайн магазин канцтоваров</h1>
+        <div class="header__cart">
+            <div id="cart" class="cart__goodsNumber"></div>
+            <button id="clearCart" class="cart__clearCart" onclick="shoppingCart.clearShoppingCart()"><i class="fas fa-times"></i></button>
+        </div>
+    </header>
+    <div id="goods" class="goods"></div>
+    <script type="text/javascript" src="scripts/goods.js"></script>
+    <script type="text/javascript" src="scripts/shoppingCart.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
